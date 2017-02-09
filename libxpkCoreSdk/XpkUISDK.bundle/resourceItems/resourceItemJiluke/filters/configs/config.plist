@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>原图</string>
+		<key>path</key>
+		<string>filter1/1</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>褪色</string>
+		<key>path</key>
+		<string>filter2/2</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>明暗</string>
+		<key>path</key>
+		<string>filter3/3</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>空白</string>
+		<key>path</key>
+		<string>filter4/4</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>光年</string>
+		<key>path</key>
+		<string>filter5/5</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>印记</string>
+		<key>path</key>
+		<string>filter6/6</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>花火</string>
+		<key>path</key>
+		<string>filter7/7</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>流云</string>
+		<key>path</key>
+		<string>filter8/8</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>清欢</string>
+		<key>path</key>
+		<string>filter9/9</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>描摹</string>
+		<key>path</key>
+		<string>filter10/10</string>
+	</dict>
+</array>
+</plist>

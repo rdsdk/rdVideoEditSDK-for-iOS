@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>潮玩</string>
+		<key>path</key>
+		<string>01-潮玩.mp3</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>发现</string>
+		<key>path</key>
+		<string>02-发现.mp3</string>
+	</dict>
+    <dict>
+        <key>title</key>
+        <string>黑白</string>
+        <key>path</key>
+        <string>03-黑白.mp3</string>
+    </dict>
+	<dict>
+		<key>title</key>
+		<string>回忆</string>
+		<key>path</key>
+		<string>04-回忆.mp3</string>
+	</dict>
+    <dict>
+        <key>title</key>
+        <string>街头</string>
+        <key>path</key>
+        <string>05-街头.mp3</string>
+    </dict>
+	<dict>
+		<key>title</key>
+		<string>旅行</string>
+		<key>path</key>
+		<string>06-旅行.mp3</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>清新</string>
+		<key>path</key>
+		<string>07-清新.mp3</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>撒野</string>
+		<key>path</key>
+		<string>08-撒野.mp3</string>
+	</dict>
+</array>
+</plist>

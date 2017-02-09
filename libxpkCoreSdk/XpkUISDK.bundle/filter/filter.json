@@ -1,0 +1,267 @@
+ [
+  {
+  "title": "LOMO集",
+  "file": "LOMO",
+  "icon": "icon",
+  "filtertypes": [
+                  {
+                  "icon": "yuantu",
+                  "title": "原图"
+                  },
+                  {
+                  "acvName": "Style1.acv",
+                  "icon": "Style1",
+                  "title": "流年"
+                  },
+                  {
+                  "acvName": "Style2.acv",
+                  "icon": "Style2",
+                  "title": "聚光"
+                  },
+                  {
+                  "acvName": "Style3.acv",
+                  "icon": "Style3",
+                  "title": "候鸟"
+                  },
+                  {
+                  "acvName": "Style4.acv",
+                  "icon": "Style4",
+                  "title": "云端"
+                  },
+                  {
+                  "acvName": "Style5.acv",
+                  "icon": "Style5",
+                  "title": "彩虹瀑"
+                  },
+                  {
+                  "acvName": "Style6.acv",
+                  "icon": "Style6",
+                  "title": "淡雅"
+                  },
+                  {
+                  "acvName": "Style7.acv",
+                  "icon": "Style7",
+                  "title": "优格"
+                  }
+                  ]
+  },{
+  "title": "薄暮集",
+  "file": "bomu",
+  "icon": "icon",
+  "filtertypes": [
+                  {
+                  "acvName": "Style1.acv",
+                  "icon": "Style1",
+                  "title": "牛奶"
+                  },
+                  {
+                  "acvName": "Style2.acv",
+                  "icon": "Style2",
+                  "title": "塞纳河畔"
+                  },
+                  {
+                  "acvName": "Style3.acv",
+                  "icon": "Style3",
+                  "title": "清晨"
+                  },
+                  {
+                  "acvName": "Style4.acv",
+                  "icon": "Style4",
+                  "title": "伊豆"
+                  },
+                  {
+                  "acvName": "Style5.acv",
+                  "icon": "Style5",
+                  "title": "随想"
+                  },
+                  {
+                  "acvName": "Style6.acv",
+                  "icon": "Style6",
+                  "title": "窗扉"
+                  }
+                  ]
+  },
+  {
+  "title": "哥特集",
+  "file": "gete",
+  "icon": "icon",
+  "filtertypes": [
+                  {
+                  "acvName": "Style1.acv",
+                  "icon": "Style1",
+                  "title": "暴走"
+                  },
+                  {
+                  "acvName": "Style2.acv",
+                  "icon": "Style2",
+                  "title": "街拍"
+                  },
+                  {
+                  "acvName": "Style3.acv",
+                  "icon": "Style3",
+                  "title": "欧洲站"
+                  },
+                  {
+                  "acvName": "Style4.acv",
+                  "icon": "Style4",
+                  "title": "里约"
+                  }
+                  ]
+  },
+  {
+  "title": "怀旧集",
+  "file": "huaijiu",
+  "icon": "icon",
+  "filtertypes": [
+                  {
+                  "acvName": "Style1.acv",
+                  "icon": "Style1",
+                  "title": "朦胧"
+                  },
+                  {
+                  "acvName": "Style2.acv",
+                  "icon": "Style2",
+                  "title": "记忆"
+                  },
+                  {
+                  "acvName": "",
+                  "lvjingtype":2,
+                  "icon": "Style3",
+                  "title": "黑白"
+                  },
+                  {
+                  "acvName": "",
+                  "lvjingtype":4,
+                  "icon": "Style4",
+                  "title": "岁月"
+                  }
+                  ]
+  },
+  {
+  "title": "冷调集",
+  "file": "lengdiao",
+  "icon": "icon",
+  "filtertypes": [
+                  {
+                  "acvName": "Style1.acv",
+                  "icon": "Style1",
+                  "title": "青春"
+                  },
+                  {
+                  "acvName": "Style2.acv",
+                  "icon": "Style2",
+                  "title": "胭脂"
+                  },
+                  {
+                  "acvName": "Style3.acv",
+                  "icon": "Style3",
+                  "title": "精灵"
+                  },
+                  {
+                  "acvName": "Style4.acv",
+                  "icon": "Style4",
+                  "title": "遐想"
+                  },
+                  {
+                  "acvName": "Style5.acv",
+                  "icon": "Style5",
+                  "title": "冰冰凉"
+                  }
+                  ]
+  },
+  {
+  "title": "午茶集",
+  "file": "wucha",
+  "icon": "icon",
+  "filtertypes": [
+                  {
+                  "acvName": "Style1.acv",
+                  "icon": "Style1",
+                  "title": "暖风机"
+                  },
+                  {
+                  "acvName": "Style2.acv",
+                  "icon": "Style2",
+                  "title": "阿宝"
+                  },
+                  {
+                  "acvName": "Style3.acv",
+                  "icon": "Style3",
+                  "title": "梦里"
+                  },
+                  {
+                  "acvName": "Style4.acv",
+                  "icon": "Style4",
+                  "title": "拿铁"
+                  },
+                  {
+                  "acvName": "Style5.acv",
+                  "icon": "Style5",
+                  "title": "活力"
+                  },
+                  {
+                  "acvName": "Style6.acv",
+                  "icon": "Style6",
+                  "title": "优雅"
+                  }
+                  ]
+  },
+  {
+  "title": "夜色集",
+  "file": "yese",
+  "icon": "icon",
+  "filtertypes": [
+                  {
+                  "acvName": "Style1.acv",
+                  "icon": "Style1",
+                  "title": "近黄昏"
+                  },
+                  {
+                  "acvName": "Style2.acv",
+                  "icon": "Style2",
+                  "title": "阴天"
+                  },
+                  {
+                  "acvName": "Style3.acv",
+                  "icon": "Style3",
+                  "title": "檀鸟"
+                  },
+                  {
+                  "acvName": "Style4.acv",
+                  "icon": "Style4",
+                  "title": "节气"
+                  },
+                  {
+                  "acvName": "Style5.acv",
+                  "icon": "Style5",
+                  "title": "晚霞"
+                  }
+                  ]
+  },
+  
+  {
+  "title": "艺术集",
+  "file": "yishu",
+  "icon": "icon",
+  "filtertypes": [
+                  {
+                  "acvName": "",
+                  "lvjingtype":9,
+                  "icon": "Style1",
+                  "title": "素描"
+                  },
+                  {
+                  "acvName": "",
+                  "lvjingtype":8,
+                  "icon": "Style2",
+                  "title": "反转"
+                  },
+                  {
+                  "acvName": "",
+                  "lvjingtype":10,
+                  "icon": "Style3",
+                  "title": "哈哈镜"
+                  }
+                  ]
+  }
+]
