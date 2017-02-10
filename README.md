@@ -75,7 +75,7 @@ www.rdsdk.com 致力于专业的人做专业的事，降低客户的开发时间
 
 **开发文档:**
 
-[点击查看](https://rdsdk.github.ios/rdVideoEditSDK-for-iOS/iOS锐动视频编辑SDK文档.doc)
+[点击查看](https://rdsdk.github.io/rdVideoEditSDK-for-iOS/iOS锐动视频编辑SDK文档.doc)
 ###洽谈咨询：
 
 **咨询电话: 4008989105**
