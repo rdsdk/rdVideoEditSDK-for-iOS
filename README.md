@@ -61,9 +61,10 @@ iOS视频编辑SDK
 <img src="website/static/edit1.jpg" width = "200" /> <img src="website/static/edit2.jpg" width = "200" /> <img src="website/static/edit3.jpg" width = "200" /> <img src="website/static/edit4.jpg" width = "200" />
 
 <img src="website/static/edit5.jpg" width = "200" /> <img src="website/static/edit6.jpg" width = "200" /> <img src="website/static/edit7.jpg" width = "200" /> <img src="website/static/edit8.jpg" width = "200" />
-###功能试用：
+###SDK下载：
 
 [SDK下载请单击](http://dianbook.17rd.com/business/app/sdk)
+
 ###功能试用：
 
 您可以在Appstore搜索“秀拍客”，我们使用本SDK整合的app。目前很多国内外软件企业已经整合到他们的产品中，我们这里不方便进行罗列。
