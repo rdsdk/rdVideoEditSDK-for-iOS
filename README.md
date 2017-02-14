@@ -63,7 +63,7 @@ iOS视频编辑SDK
 <img src="website/static/edit5.jpg" width = "200" /> <img src="website/static/edit6.jpg" width = "200" /> <img src="website/static/edit7.jpg" width = "200" /> <img src="website/static/edit8.jpg" width = "200" />
 ###SDK下载：
 
-[SDK下载请单击](http://dianbook.17rd.com/business/app/sdk)
+[SDK下载请单击](http://d.56show.com/rdsdk/private/pack/rd_videoedit_ios_20170105.zip)
 
 ###功能试用：
 
@@ -87,7 +87,6 @@ www.rdsdk.com 致力于专业的人做专业的事，降低客户的开发时间
 **客服电话: 15313066905 (周一至周五 9:00-18:00)**
 
 **客服邮箱：<2637433751@qq.com>**
-
 
 
 
