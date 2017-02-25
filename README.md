@@ -61,7 +61,7 @@ iOS视频编辑SDK
 <img src="website/static/edit1.jpg" width = "200" /> <img src="website/static/edit2.jpg" width = "200" /> <img src="website/static/edit3.jpg" width = "200" /> <img src="website/static/edit4.jpg" width = "200" />
 
 <img src="website/static/edit5.jpg" width = "200" /> <img src="website/static/edit6.jpg" width = "200" /> <img src="website/static/edit7.jpg" width = "200" /> <img src="website/static/edit8.jpg" width = "200" />
-###SDK下载：
+###最新SDK下载(以下链接是最新的，github代码会有少有延迟)：
 
 [SDK下载请单击](http://d.56show.com/rdsdk/private/pack/rd_videoedit_ios_20170105.zip)
 
