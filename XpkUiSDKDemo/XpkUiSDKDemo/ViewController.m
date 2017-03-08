@@ -257,7 +257,7 @@ NSString *const APPSECRET = @"3ac8a8b40ce5bd5c37642978ef097731TDgMqucwJLGDvj09ws
         _xpkSDK.editConfiguration.enableWizard                = false;
         //设置编辑所支持的文件类型
         _xpkSDK.editConfiguration.supportFileType             = SUPPORT_ALL;
-        _xpkSDK.editConfiguration.defaultSelectAlbum          = RDDEFAULTSELECTALBUM_IMAGE;
+        _xpkSDK.editConfiguration.defaultSelectAlbum          = RDDEFAULTSELECTALBUM_VIDEO;
         _xpkSDK.editConfiguration.supportDeviceOrientation    = UIINTERFACEORIENTATION_PORTRAIT;
         
         _xpkSDK.editConfiguration.customizationPROPORTIONTYPE                = RDPROPORTIONTYPE_AUDIO;
@@ -432,8 +432,8 @@ NSString *const APPSECRET = @"3ac8a8b40ce5bd5c37642978ef097731TDgMqucwJLGDvj09ws
     [self.view addSubview:_functionListTable];
     
     _editConfiguration = [[EditConfiguration alloc] init];
-    _exportConfiguration = [[ExportConfiguration alloc] init];
     _cameraConfiguration = [[CameraConfiguration alloc] init];
+    _exportConfiguration = [[ExportConfiguration alloc] init];
     if(!settingView){
         [self initSettingView];
     }
@@ -489,18 +489,12 @@ NSString *const APPSECRET = @"3ac8a8b40ce5bd5c37642978ef097731TDgMqucwJLGDvj09ws
     [_xpkSDK videoRecordAutoSizeWithSourceController:self callbackBlock:^(NSString *videoPath) {
         dispatch_async(dispatch_get_main_queue(), ^{
             if (videoPath.length > 0) {
-                [[[ALAssetsLibrary alloc] init] writeVideoAtPathToSavedPhotosAlbum:[NSURL fileURLWithPath:videoPath] completionBlock:(^(NSURL *assetURL, NSError *error){
-                    NSLog(@"error:%@",error);
-                })];
                 [weakSelf editVideoWithPath:videoPath type:1];
             }
         });
     } imagebackBlock:^(NSString * _Nonnull imagePath) {
         dispatch_async(dispatch_get_main_queue(), ^{
             if (imagePath.length > 0) {
-                [[[ALAssetsLibrary alloc] init] writeVideoAtPathToSavedPhotosAlbum:[NSURL fileURLWithPath:imagePath] completionBlock:(^(NSURL *assetURL, NSError *error){
-                    NSLog(@"error:%@",error);
-                })];
                 [weakSelf editVideoWithPath:imagePath type:2];
             }
         });
@@ -1302,6 +1296,7 @@ NSString *const APPSECRET = @"3ac8a8b40ce5bd5c37642978ef097731TDgMqucwJLGDvj09ws
 
 - (void)cameraTapgesture{
     cameraSettingView.alpha = 0.0;
+    
 }
 
 - (void)setcameraSettings:(UIButton *)sender{
@@ -1832,7 +1827,7 @@ NSString *const APPSECRET = @"3ac8a8b40ce5bd5c37642978ef097731TDgMqucwJLGDvj09ws
             
             
             
-            for (int i = 0; i<3; i++) {
+            for (int k = 0; k<3; k++) {
                 UIButton *settingItemBtn = [UIButton buttonWithType:UIButtonTypeCustom];
                 [settingItemBtn setBackgroundColor:[UIColor clearColor]];
                 
@@ -1846,12 +1841,12 @@ NSString *const APPSECRET = @"3ac8a8b40ce5bd5c37642978ef097731TDgMqucwJLGDvj09ws
                 [settingItemBtn setImage:[UIImage imageNamed:@"单选默认"] forState:UIControlStateNormal];
                 [settingItemBtn setImage:[UIImage imageNamed:@"单选选中"] forState:UIControlStateSelected];
                 [settingItemBtn addTarget:self action:@selector(proportionSettingChildBtnTouch:) forControlEvents:UIControlEventTouchUpInside];
-                settingItemBtn.frame = CGRectMake(110 * i + 15, 5+15, 90, 30);
+                settingItemBtn.frame = CGRectMake(110 * k + 15, 5+15, 90, 30);
                 
                 settingItemBtn.layer.cornerRadius = 4.0;
                 settingItemBtn.layer.masksToBounds = YES;
-                settingItemBtn.tag = i+1;
-                switch (i) {
+                settingItemBtn.tag = k+1;
+                switch (k) {
                     case 0:
                     {
                         [settingItemBtn setTitle:@"自 动" forState:UIControlStateNormal];
@@ -1885,7 +1880,7 @@ NSString *const APPSECRET = @"3ac8a8b40ce5bd5c37642978ef097731TDgMqucwJLGDvj09ws
         }else{
             [settingItemBtn setBackgroundColor:[UIColor clearColor]];
         }
-        
+        NSLog(@"settingItemBtn.tag:%d",settingItemBtn.tag);
         [fragmentEditSettingView addSubview:settingItemBtn];
     }
     
@@ -2371,9 +2366,8 @@ NSString *const APPSECRET = @"3ac8a8b40ce5bd5c37642978ef097731TDgMqucwJLGDvj09ws
     if(!_xpkSDK.editConfiguration.customizationFRAGMENTEDIT){
         return;
     }
-    
     switch (sender.tag-1) {
-        case 0:
+        case 0://@"截 取"
         {
             
             if(sender.selected){
@@ -2383,7 +2377,7 @@ NSString *const APPSECRET = @"3ac8a8b40ce5bd5c37642978ef097731TDgMqucwJLGDvj09ws
             }
         }
             break;
-        case 1:
+        case 1://@"分 割"
         {
             if(sender.selected){
                 _xpkSDK.editConfiguration.customizationSPLIT = true;
@@ -2392,7 +2386,7 @@ NSString *const APPSECRET = @"3ac8a8b40ce5bd5c37642978ef097731TDgMqucwJLGDvj09ws
             }
         }
             break;
-        case 2:
+        case 2://@"裁切+旋转"
         {
             if(sender.selected){
                 _xpkSDK.editConfiguration.customizationEDIT = true;
@@ -2401,7 +2395,7 @@ NSString *const APPSECRET = @"3ac8a8b40ce5bd5c37642978ef097731TDgMqucwJLGDvj09ws
             }
         }
             break;
-        case 3:
+        case 3://@"调 速"
         {
             if(sender.selected){
                 _xpkSDK.editConfiguration.customizationSPEEDCONTROL = true;
@@ -2410,7 +2404,7 @@ NSString *const APPSECRET = @"3ac8a8b40ce5bd5c37642978ef097731TDgMqucwJLGDvj09ws
             }
         }
             break;
-        case 4:
+        case 4://@"调整图片时长"
         {
             if(sender.selected){
                 _xpkSDK.editConfiguration.customizationIMAGE_DURATION_CONTROL = true;
@@ -2419,15 +2413,16 @@ NSString *const APPSECRET = @"3ac8a8b40ce5bd5c37642978ef097731TDgMqucwJLGDvj09ws
             }
         }
             break;
-        case 5:
+        case 5://@"复 制"
         {
             if(sender.selected){
                 _xpkSDK.editConfiguration.customizationCOPY = true;
             }else{
                 _xpkSDK.editConfiguration.customizationCOPY = false;
             }
+            break;
         }
-        case 6:
+        case 6://@"调 序"
         {
             if(sender.selected){
                 _xpkSDK.editConfiguration.customizationSORT = true;
@@ -2436,7 +2431,7 @@ NSString *const APPSECRET = @"3ac8a8b40ce5bd5c37642978ef097731TDgMqucwJLGDvj09ws
             }
         }
             break;
-        case 7:
+        case 7://@"文字版"
         {
             if(sender.selected){
                 _xpkSDK.editConfiguration.customizationTEXTTITLE = true;
@@ -2445,7 +2440,7 @@ NSString *const APPSECRET = @"3ac8a8b40ce5bd5c37642978ef097731TDgMqucwJLGDvj09ws
             }
         }
             break;
-        case 8:
+        case 8://@"画面比例"
         {
             if(sender.selected){
                 _xpkSDK.editConfiguration.customizationPROPORTION = true;
@@ -3234,6 +3229,5 @@ NSString *const APPSECRET = @"3ac8a8b40ce5bd5c37642978ef097731TDgMqucwJLGDvj09ws
     UIGraphicsEndImageContext();
     return [image resizableImageWithCapInsets:UIEdgeInsetsMake(cornerRadius, cornerRadius, cornerRadius, cornerRadius)];
 }
-
 
 @end
