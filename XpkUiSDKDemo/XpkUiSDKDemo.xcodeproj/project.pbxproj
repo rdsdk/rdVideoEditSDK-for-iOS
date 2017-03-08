@@ -20,6 +20,16 @@
 		8676079A1CC8E48200997BEC /* libXpkUISDKLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 867607931CC8E48200997BEC /* libXpkUISDKLib.a */; };
 		8676079B1CC8E48200997BEC /* XpkUISDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 867607941CC8E48200997BEC /* XpkUISDK.bundle */; };
 		8684B9B61DCAD450001488F3 /* testFile1.mov in Resources */ = {isa = PBXBuildFile; fileRef = 8684B9B51DCAD450001488F3 /* testFile1.mov */; };
+		86872C481E6FBD4A0065597C /* IMG_0586.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 86872C3C1E6FBD4A0065597C /* IMG_0586.JPG */; };
+		86872C491E6FBD4A0065597C /* water_LOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = 86872C3D1E6FBD4A0065597C /* water_LOGO.png */; };
+		86872C4A1E6FBD4A0065597C /* waterImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 86872C3E1E6FBD4A0065597C /* waterImage.png */; };
+		86872C4B1E6FBD4A0065597C /* waterImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 86872C401E6FBD4A0065597C /* waterImage.png */; };
+		86872C4C1E6FBD4A0065597C /* 不启用_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86872C411E6FBD4A0065597C /* 不启用_@3x.png */; };
+		86872C4D1E6FBD4A0065597C /* 单选选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 86872C421E6FBD4A0065597C /* 单选选中.png */; };
+		86872C4E1E6FBD4A0065597C /* 单选默认.png in Resources */ = {isa = PBXBuildFile; fileRef = 86872C431E6FBD4A0065597C /* 单选默认.png */; };
+		86872C4F1E6FBD4A0065597C /* 启用勾_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86872C441E6FBD4A0065597C /* 启用勾_@3x.png */; };
+		86872C501E6FBD4A0065597C /* 片尾caise_LOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = 86872C461E6FBD4A0065597C /* 片尾caise_LOGO.png */; };
+		86872C511E6FBD4A0065597C /* 片尾caise_LOGO_.png in Resources */ = {isa = PBXBuildFile; fileRef = 86872C471E6FBD4A0065597C /* 片尾caise_LOGO_.png */; };
 		86A66B141C7D5B350098E7D2 /* waterImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 86A66B131C7D5B350098E7D2 /* waterImage.png */; };
 		86A66B1F1C7D616D0098E7D2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86A66B1E1C7D616D0098E7D2 /* MobileCoreServices.framework */; };
 		86A66B271C7D623C0098E7D2 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 86A66B261C7D623C0098E7D2 /* libz.1.2.5.tbd */; };
@@ -73,6 +83,16 @@
 		867607931CC8E48200997BEC /* libXpkUISDKLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libXpkUISDKLib.a; sourceTree = "<group>"; };
 		867607941CC8E48200997BEC /* XpkUISDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = XpkUISDK.bundle; sourceTree = "<group>"; };
 		8684B9B51DCAD450001488F3 /* testFile1.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = testFile1.mov; sourceTree = "<group>"; };
+		86872C3C1E6FBD4A0065597C /* IMG_0586.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0586.JPG; sourceTree = "<group>"; };
+		86872C3D1E6FBD4A0065597C /* water_LOGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = water_LOGO.png; sourceTree = "<group>"; };
+		86872C3E1E6FBD4A0065597C /* waterImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = waterImage.png; sourceTree = "<group>"; };
+		86872C401E6FBD4A0065597C /* waterImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = waterImage.png; sourceTree = "<group>"; };
+		86872C411E6FBD4A0065597C /* 不启用_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "不启用_@3x.png"; sourceTree = "<group>"; };
+		86872C421E6FBD4A0065597C /* 单选选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "单选选中.png"; sourceTree = "<group>"; };
+		86872C431E6FBD4A0065597C /* 单选默认.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "单选默认.png"; sourceTree = "<group>"; };
+		86872C441E6FBD4A0065597C /* 启用勾_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "启用勾_@3x.png"; sourceTree = "<group>"; };
+		86872C461E6FBD4A0065597C /* 片尾caise_LOGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "片尾caise_LOGO.png"; sourceTree = "<group>"; };
+		86872C471E6FBD4A0065597C /* 片尾caise_LOGO_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "片尾caise_LOGO_.png"; sourceTree = "<group>"; };
 		86A66B131C7D5B350098E7D2 /* waterImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = waterImage.png; sourceTree = "<group>"; };
 		86A66B1E1C7D616D0098E7D2 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		86A66B221C7D61930098E7D2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -152,6 +172,15 @@
 		86672B9C1C15367C000D719E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				86872C3C1E6FBD4A0065597C /* IMG_0586.JPG */,
+				86872C3D1E6FBD4A0065597C /* water_LOGO.png */,
+				86872C3E1E6FBD4A0065597C /* waterImage.png */,
+				86872C3F1E6FBD4A0065597C /* waterlogo */,
+				86872C411E6FBD4A0065597C /* 不启用_@3x.png */,
+				86872C421E6FBD4A0065597C /* 单选选中.png */,
+				86872C431E6FBD4A0065597C /* 单选默认.png */,
+				86872C441E6FBD4A0065597C /* 启用勾_@3x.png */,
+				86872C451E6FBD4A0065597C /* 片尾 */,
 				8684B9B51DCAD450001488F3 /* testFile1.mov */,
 				86A66B121C7D5B350098E7D2 /* waterlogo */,
 				86672B9D1C15367C000D719E /* main.m */,
@@ -197,6 +226,23 @@
 				867607921CC8E48200997BEC /* XpkUISDK.h */,
 			);
 			path = include;
+			sourceTree = "<group>";
+		};
+		86872C3F1E6FBD4A0065597C /* waterlogo */ = {
+			isa = PBXGroup;
+			children = (
+				86872C401E6FBD4A0065597C /* waterImage.png */,
+			);
+			path = waterlogo;
+			sourceTree = "<group>";
+		};
+		86872C451E6FBD4A0065597C /* 片尾 */ = {
+			isa = PBXGroup;
+			children = (
+				86872C461E6FBD4A0065597C /* 片尾caise_LOGO.png */,
+				86872C471E6FBD4A0065597C /* 片尾caise_LOGO_.png */,
+			);
+			path = "片尾";
 			sourceTree = "<group>";
 		};
 		86A66B121C7D5B350098E7D2 /* waterlogo */ = {
@@ -289,11 +335,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86872C4C1E6FBD4A0065597C /* 不启用_@3x.png in Resources */,
+				86872C4D1E6FBD4A0065597C /* 单选选中.png in Resources */,
+				86872C481E6FBD4A0065597C /* IMG_0586.JPG in Resources */,
 				8632CA721D9BB776001346B0 /* VideoRecordBundle.bundle in Resources */,
+				86872C511E6FBD4A0065597C /* 片尾caise_LOGO_.png in Resources */,
 				8684B9B61DCAD450001488F3 /* testFile1.mov in Resources */,
 				8676079B1CC8E48200997BEC /* XpkUISDK.bundle in Resources */,
+				86872C491E6FBD4A0065597C /* water_LOGO.png in Resources */,
 				86A66B141C7D5B350098E7D2 /* waterImage.png in Resources */,
+				86872C4B1E6FBD4A0065597C /* waterImage.png in Resources */,
+				86872C4E1E6FBD4A0065597C /* 单选默认.png in Resources */,
 				86672BA91C15367C000D719E /* Assets.xcassets in Resources */,
+				86872C501E6FBD4A0065597C /* 片尾caise_LOGO.png in Resources */,
+				86872C4F1E6FBD4A0065597C /* 启用勾_@3x.png in Resources */,
+				86872C4A1E6FBD4A0065597C /* waterImage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
