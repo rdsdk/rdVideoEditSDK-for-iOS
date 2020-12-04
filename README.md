@@ -88,5 +88,7 @@ www.rdsdk.com 致力于专业的人做专业的事，降低客户的开发时间
 
 **客服邮箱：<2637433751@qq.com>**
 
+**Overseas customer service email：<support@verysdk.com>**
+
 
 
